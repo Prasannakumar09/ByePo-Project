@@ -10,9 +10,9 @@ The system has three roles and three separate frontend applications, all backed 
 
 | Role | App | What they do |
 |---|---|---|
-| **Super Admin** | Super Admin App | Logs in with static credentials, creates organizations, views the list of all organizations |
-| **Organization Admin** | Admin App | Signs up (joins an existing org), logs in, creates/toggles/deletes feature flags scoped to their own organization |
-| **End User** | User App | No login — picks an organization and a feature key, submits, and sees whether that feature is enabled |
+| **Super Admin** | Multi Tenant Spr App | Logs in with static credentials, creates organizations, views the list of all organizations |
+| **Organization Admin** | Multi Tenant Org App | Signs up (joins an existing org), logs in, creates/toggles/deletes feature flags scoped to their own organization |
+| **End User** | Multi Tenant Usr App | No login — picks an organization and a feature key, submits, and sees whether that feature is enabled |
 
 ---
 
